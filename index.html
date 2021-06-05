@@ -18,80 +18,189 @@
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/stylesApps.css">
+  <link rel="stylesheet" href="css/buttons.css">
 
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/362e342294.js" crossorigin="anonymous"></script>
+
 </head>
 
 
 
 
-  <body>
-
-    <section class="header-section">
-
-      <div>
-        <img class="circule" width="200"
-          src="images/runo.jpg"/>
+<body>
+  <!-- Header -->
+  <section class="header-section">
+      <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-end">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#bio">Bio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#apps">Apps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
 
-      <h1 class="big-heading">Hello I'm Runo</h1>
-    </section>
+  <!-- Photo -->
+    <div>
+      <img class="circule" width="200" src="images/runo.jpg" />
+    </div>
 
-
-<section class= light-section>
-
-  <h2>Bio</h2>
-  <h3>FFFFFLorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.F</h3>
-
-</section>
-
-<section class= dark-section>
-
-  <h2>Skills</h2>
-  <h3>FFFFFLorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.F</h3>
-
-</section>
-
-<section class= light-section>
-
-  <h2>Apps</h2>
+    <h1 class="big-heading">Hello I'm Runo</h1>
+  </section>
 
 
-      <div class="row">
+  <!-- Bio -->
+  <section class=light-section id="bio">
 
-        <div class="item col-lg-4">
+    <h2>Bio</h2>
+    <h3>FFFFFLorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.F</h3>
 
+  </section>
+
+  <section class=dark-section id="skills">
+
+    <h2>Skills</h2>
+
+        <div class="row">
+    <!-- Lola -->
+        <div class="item col-lg-2 col-md-3">
           <span>
-           <a href="lola.html" target="_blank">
-            <img class="appIcon" width="70"
-            src="images/lola.png" />
-           </a>
+            <a href="lola.html">
+              <img class="skillIcon" width="70" src="images/lola.png" />
+            </a>
           </span>
 
-          <h3>Easy to use.</h3>
-          <p class="blass">So easy to use, even your dog could do it.</p>
+          <h3>Lola-Read</h3>
+          <p class="blass">App for children who learn reading</p>
         </div>
 
-        <div class="item col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3>Elite Clientele</h3>
-          <p class="blass">We have all the dogs, the greatest dogs.</p>
+  <!-- AnesthoCalc -->
+        <div class="item col-lg-3 col-md-3">
+          <span>
+            <a href="anesthoCalc.html">
+            <img class="skillIcon" width="70" src="images/anestoCalc.png">
+            </a>
+          </span>
+          <h3>AnesthoCalc</h3>
+          <p class="blass">App with medical tools, scores, classifications</p>
         </div>
 
-        <div class="item col-lg-4">
-          <i class="icon fas fa-bullseye fa-4x"></i>
-          <h3>Guaranteed to work.</h3>
-          <p class="blass">Find the love of your dog's life or your money back.</p>
+  <!-- My Collection -->
+        <div class="item col-lg-3 col-md-3">
+          <span>
+            <a href="myCollection.html">
+            <img class="skillIcon" width="70" src="images/myCollection.png">
+            </a>
+          </span>
+
+          <h3>My-Collection</h3>
+          <p class="blass">It’s a multifunctional app to collect, mark and classify different items</p>
+        </div>
+
+  <!-- EuroCoins -->
+        <div class="item col-lg-3 col-md-3">
+          <span>
+            <a href="euroCoins.html">
+            <img class="skillIcon" width="70" src="images/euroCoins.png">
+            </a>
+          </span>
+
+          <h3>Euro Coins</h3>
+          <p class="blass">App with all current divisional and commemorative euro coins for numismatists</p>
         </div>
 
       </div>
 
-</section>
+  </section>
 
-  </body>
+  <section class=light-section id="apps">
+
+    <h2>Apps</h2>
 
 
+    <div class="row">
+
+  <!-- Lola -->
+      <div class="item col-lg-3 col-md-6">
+        <span>
+          <a href="lola.html">
+            <img class="appIcon" width="100" src="images/lola.png" />
+          </a>
+        </span>
+
+        <h3>Lola-Read</h3>
+        <p class="blass">App for children who learn reading</p>
+      </div>
+
+<!-- AnesthoCalc -->
+      <div class="item col-lg-3 col-md-6">
+        <span>
+          <a href="anesthoCalc.html">
+          <img class="appIcon" width="100" src="images/anestoCalc.png">
+          </a>
+        </span>
+        <h3>AnesthoCalc</h3>
+        <p class="blass">App with medical tools, scores, classifications</p>
+      </div>
+
+<!-- My Collection -->
+      <div class="item col-lg-3 col-md-6">
+        <span>
+          <a href="myCollection.html">
+          <img class="appIcon" width="100" src="images/myCollection.png">
+          </a>
+        </span>
+
+        <h3>My-Collection</h3>
+        <p class="blass">It’s a multifunctional app to collect, mark and classify different items</p>
+      </div>
+
+<!-- EuroCoins -->
+      <div class="item col-lg-3 col-md-6">
+        <span>
+          <a href="euroCoins.html">
+          <img class="appIcon" width="100" src="images/euroCoins.png">
+          </a>
+        </span>
+
+        <h3>Euro Coins</h3>
+        <p class="blass">App with all current divisional and commemorative euro coins for numismatists</p>
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+
+
+
+<div class="bottom-container" id="footer">
+  <div class="contact-me">
+    <a href="mailto:ak.moabit@gmail.com"
+      <button type="button" class="btn btn-outline-dark">Contact Me</button>
+    </a>
+  </div>
+<br>
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p class="sub-2020">© 2021 Aleksandr Kurdiukov</p>
+</div>
 
 
 </html>

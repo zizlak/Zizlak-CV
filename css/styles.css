@@ -25,7 +25,19 @@ h3 {
   color: #8f8f8f
 }
 
+.sub-2021 {
+  color: #290001;
+  font-size: 0.75rem;
+}
 
+.footer-link {
+
+    color: #835858;
+    font-family: 'Merriweather', serif;
+    margin: 20px 10px;
+    text-decoration: none;
+
+}
 
 
 /* SECTIONS */
@@ -50,22 +62,40 @@ h3 {
   text-align: center;
 }
 
+.contact-me {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.bottom-container {
+background-color: #CBAF87;
+padding: 30px;
+color: #290001;
+margin: auto;
+text-align: center;
+font-family: verdana, sans-serif;
+  /* font-family: 'Syne Mono', monospace; */
+font-family: 'Merriweather', serif;
+
+
+}
+
+
 /* Image */
 .circule {
   border-radius: 50%;
 }
 
+.skillIcon {
+  border-radius: 20%;
+  margin-bottom: 1rem;
+}
+.skillIcon:hover {
+  box-shadow:0 0 10px white;
+}
 
 /* Items */
 .item {
   padding: 2%
 }
-
-/* .icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4688;
-} */
