@@ -25,6 +25,7 @@ h3 {
   color: #8f8f8f
 }
 
+
 .sub-2021 {
   color: #290001;
   font-size: 0.75rem;
@@ -44,7 +45,7 @@ h3 {
 .header-section {
   background-color: #ff4c68;
   color: white;
-  padding: 7% 15%;
+  padding: 7% 5%;
   text-align: center;
 }
 
@@ -87,15 +88,47 @@ font-family: 'Merriweather', serif;
   border-radius: 50%;
 }
 
+.appIcon {
+  width: 100;
+  border-radius: 20%;
+  margin-bottom: 1rem;
+}
+
+.appIcon:hover {
+  /* box-shadow: -2px 0, 0 2px, 2px 0, 0 -2px; */
+  box-shadow:0 0 10px white;
+}
+
 .skillIcon {
   border-radius: 20%;
   margin-bottom: 1rem;
 }
+
 .skillIcon:hover {
+  box-shadow:0 0 10px black;
+}
+
+.edIcon {
+  border-radius: 20%;
+  margin-bottom: 1rem;
+}
+
+.edIcon:hover {
   box-shadow:0 0 10px white;
 }
 
 /* Items */
 .item {
-  padding: 2%
+  padding: 2%;
+
+}
+
+.baseline {
+  align-items: stretch;
+}
+
+
+
+.red {
+  color: red;
 }
