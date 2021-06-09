@@ -9,3 +9,13 @@
     border-radius: 10%;
     margin-bottom: 3rem;
 }
+
+.left {
+  text-align: left;
+  background-color: #f5e6ca;
+}
+
+.center {
+  text-align: center;
+  background-color: #f5e6ca;
+}

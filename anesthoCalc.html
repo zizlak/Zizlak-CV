@@ -6,26 +6,35 @@
   <title>AnesthoCalc</title>
 
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
-  <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/stylesApps.css">
-  <link rel="stylesheet" href="css/buttons.css">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesApps.css">
+    <link rel="stylesheet" href="css/buttons.css">
 
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/362e342294.js" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/362e342294.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
   <!-- header -->
   <section class="header-section">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">Main Page</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="myCollection.html">My-Collection >></a>
+          </li>
+        </ul>
+    </nav>
 
     <!-- Photo -->
     <div>
@@ -46,41 +55,218 @@
     <h3 class="blass">AnesthoCalc contains many simple tools, scores, classifications, useful for medical practitioners in anaesthesiology, emergency medicine and others.</h3>
     <h3 class="blass">This application was developed to simplify a way of calculating many important tools, formulas and scores for medical practitioners.</h3>
 
+
+    <!-- <nav class="navbar-light justify-content-centre"> -->
+      <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span>      Scores      </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="list-group blass">
+          <h4 class="list-group-item left">  ASA, Apgar, Apfel, Cormak-Lehane, GCS, HAN, Mallampati, RASS, SOFA, qSOFA, BMI, Body square, Basal metabolic rate, MET, Oxygen consumption, OSA STOP-Bang, Pressure converter, Concentration convertor, List of catheter sizes, Calculators of anesthesiological equipment, Units converter.</h4>
+        </ul>
+      </div>
+      <br>
+      <br>
+
+      <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span>Calculators</span>
+      </button>
+
+
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+        <ul class="list-group blass">
+          <h4 class="list-group-item left"> MAP, SVR, PVR, QTc, max Heart Rate, CPP, BP in Heart cameras, normal hemodynamic PICCO values, Pulmonary Compliance, Vd/Vt, Anatomic Dead Space, Vital parameters for children in different ages, laboratory values, BGA, Acid-Base Disorders, Anion Gape..</h4>
+        </ul>
+      </div>
+    <!-- </nav> -->
+
+
+
   </section>
 
   <!-- Screenshots -->
 
-  <section class="dark-section">
-    <h2>Screenshoots</h2>
+  <section class=dark-section id="skills">
+
+    <h2>Screenshots</h2>
     <br>
 
-    <div class="row justify-content-center">
+    <div id="carouselExampleIndicators2" class="carousel slide" interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
 
-      <!-- 1 -->
-      <div class="item">
-        <span> <img class="screenshoot" width="250" src="SS/lola-scr-1.png" /></span>
-      </div>
+        <!-- Chapter 1 -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center baseline">
 
-      <!-- 2 -->
-      <div class="item">
-        <span> <img class="screenshoot" width="250" src="SS/lola-scr-2.png" /></span>
-      </div>
+            <!-- 1-->
+            <div class="item col-lg-3 col-md-3">
+              <span> <img class="screenshoot" width="250" src="SS/PDD/pdd1.png" /></span>
+            </div>
 
-      <!-- 3 -->
-      <div class="item">
-        <span> <img class="screenshoot" width="250" src="SS/lola-scr-3.png" /></span>
+            <!-- 2 -->
+            <div class="item col-lg-3 col-md-3">
+              <span> <img class="screenshoot" width="250" src="SS/PDD/pdd2.png" /></span>
+            </div>
+
+            <!-- 3 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd3.png" /></span>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Chapter 2  -->
+        <div class="carousel-item">
+          <div class="row justify-content-center baseline">
+
+            <!-- 4 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd4.png" /></span>
+            </div>
+
+            <!-- 5 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd5.png" /></span>
+            </div>
+
+            <!-- 6 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd6.png" /></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapter 3 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center baseline">
+
+            <!-- 7 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd7.png" /></span>
+            </div>
+
+            <!-- 8 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd8.png" /></span>
+            </div>
+
+            <!-- 9 -->
+            <div class="item col-lg-3 col-md-3">
+            <span> <img class="screenshoot" width="250" src="SS/PDD/pdd9.png" /></span>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <br>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-
   </section>
 
+
+
+
+  <!-- Features Carousel -->
+  <section class=light-section id="skills">
+
+    <h2>Tools</h2>
+    <br>
+
+    <div id="carouselExampleIndicators" class="carousel slide" interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <!-- Features 1 -->
+        <div class="carousel-item active">
+
+          <div class="row justify-content-center baseline">
+
+            <!-- CollectionView -->
+            <div class="item col-lg-3 col-md-3">
+              <span><img class="skillIcon" width="70" src="Features/collectionView.png"></span>
+              <h3>CollectionView</h3>
+            </div>
+
+
+            <!-- page -->
+            <div class="item col-lg-3 col-md-3">
+              <span><img class="skillIcon" width="70" src="Features/page.png"></span>
+              <h3>PageViewController</h3>
+            </div>
+
+            <!-- PickerView -->
+            <div class="item col-lg-3 col-md-3">
+              <span><img class="skillIcon" width="70" src="Features/picker.png"></span>
+              <h3>PickerView</h3>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Frameworks: 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center baseline">
+
+            <!-- search -->
+            <div class="item col-lg-3 col-md-3">
+              <span> <img class="skillIcon" width="70" src="Features/search.png" /></span>
+              <h3>SearchController</h3>
+            </div>
+
+            <!-- UserDefaults -->
+            <div class="item col-lg-3 col-md-3">
+              <span> <img class="skillIcon" width="70" src="Features/tresor.png" /></span>
+              <h3>Persistancy</h3>
+            </div>
+
+            <!-- Programmatical Interface -->
+            <div class="item col-lg-3 col-md-3">
+              <span><img class="skillIcon" width="70" src="Features/code.png"></span>
+              <h3>Programmatical Interface</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+
   <!-- Video -->
-  <section class="light-section">
+  <section class="dark-section">
     <br>
 
     <p>
       <video height="600" loop="true" autoplay="true">
-        <source src="SS/lola-v-1.mov" allowfullscreen type="video/mp4">
+        <source src="SS/PDD/pdd.mov" allowfullscreen type="video/mp4">
       </video>
     </p>
 
@@ -90,13 +276,14 @@
   <!-- Footer -->
   <div class="bottom-container" id="footer">
     <div class="contact-me">
-      <a href="mailto:ak.moabit@gmail.com?body= Send from portfolio web site (Lola-Read)" <button type="button" class="btn btn-outline-dark">Contact Me</button>
+      <a href="mailto:ak.moabit@gmail.com?body= Send from portfolio web site (Anesthocalc)" <button type="button" class="btn btn-outline-dark">Contact Me</button>
       </a>
     </div>
     <br>
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/kurdiukov/">LinkedIn</a>
+    <a class="footer-link" href="https://apps.apple.com/us/developer/aleksandr-kurdiukov/id1481477444">AppStore</a>
+    <a class="footer-link" href="https://github.com/zizlak">GitHub</a>
+    <a class="footer-link" href="https://www.last.fm/user/Africa-Unite">last.fm</a>
     <p class="sub-2020">© 2021 Aleksandr Kurdiukov</p>
   </div>
 
